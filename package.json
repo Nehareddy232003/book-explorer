@@ -7,10 +7,10 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
