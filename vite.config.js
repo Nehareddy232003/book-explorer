@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/book-explorer/',
-    preview: {
-    allowedHosts: true, // Allow CodeSandbox preview hosts
-  }
+  server: {
+    allowedHosts: ["*"], // ✅ Allow CodeSandbox host
+  },
 })
