@@ -7,6 +7,5 @@ export default defineConfig({
   base: '/book-explorer/',
     preview: {
     allowedHosts: true, // Allow CodeSandbox preview hosts
-    port: 5173          // Optional, default is 4173
   }
 })
