@@ -10,7 +10,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+  
   },
   "dependencies": {
     "react": "^18.3.1",
