@@ -1,11 +1,15 @@
 {
+  "homepage": "https://Nehareddy232003.github.io/Book-explorer",
+
   "name": "book-finder",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
