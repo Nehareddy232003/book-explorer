@@ -9,7 +9,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://$GH_TOKEN@github.com/Nehareddy232003/book-explorer.git"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
